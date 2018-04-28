@@ -1,0 +1,41 @@
+/**index.wxss**/
+
+
+.audioImageBox{
+  width: 550rpx;
+  height: 450rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 75rpx;
+}
+
+.audio-image{
+  width: 550rpx;
+  height: 450rpx;
+  margin-top: 50rpx;
+  border-radius: 8px ;
+  box-shadow:0px 0px 40rpx #000;
+}
+
+.audio-status-image{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+}
+
+.audio-seek-bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70rpx;
+}
+
+.audio-progress{
+  width: 480rpx;
+}
+
+.audio-time{
+  font-size: 20rpx;
+  color: #AAAAAA;
+}

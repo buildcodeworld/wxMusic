@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+
+    <view class='audioImageBox'>
+        <image src='../../images/icon_weixin.jpg'  class='audio-image'></image>
+        <image src='{{playStatusUrl}}' class='audio-status-image' bindtap='playAudioStatus'></image>
+    </view>
+     <view class='audio-seek-bar'>
+          <text class='audio-time'>{{currentDuration}}</text>
+            <slider class='audio-progress' block-size="20" activeColor="#E66955" backgroundColor='#E5E5E5'
+          min='{{minSlider}}' max='{{maxSlider}}' value="{{currentSlider}}"
+           bindchange="sliderchange" bindchanging="slidering" />
+          <text class='audio-time'>{{duration}}</text>
+      </view>
+
+
+</view>
